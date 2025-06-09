@@ -1,3 +1,3 @@
-<div>
-    {{-- To attain knowledge, add things every day; To attain wisdom, subtract things every day. --}}
+<div class="text-red-400 bg-red-100 rounded m-20">
+    Hello World
 </div>
