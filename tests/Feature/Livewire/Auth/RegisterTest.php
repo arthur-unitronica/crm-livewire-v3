@@ -11,8 +11,8 @@ it('should render the component', function () {
         ->assertOk();
 });
 
-it('should be able to register a new user in the system', function() {
-    Livewire::test(Register::clas)
+it('should be able to register a new user in the system', function () {
+    Livewire::test(Register::class)
         ->set('name', 'Arthur')
         ->set('email', 'arthur@email.com')
         ->set('email_confirmation', 'arthur@email.com')
@@ -26,4 +26,4 @@ it('should be able to register a new user in the system', function() {
     ]);
 
     assertDatabaseCount('users', 1);
-})
+});
